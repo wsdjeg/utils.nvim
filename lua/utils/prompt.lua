@@ -6,12 +6,12 @@
 -- License: GPLv3
 --=============================================================================
 
-local Key = require('plugin-utils.vim.keys')
+local Key = require('utils.vim.keys')
 
 local M = {}
 
-M.__cmp = require('plugin-utils.vim.compatible')
-M.__vim = require('plugin-utils.vim')
+M.__cmp = require('utils.vim.compatible')
+M.__vim = require('utils.vim')
 
 M._keys = {
   close = Key.t('<Esc>'),

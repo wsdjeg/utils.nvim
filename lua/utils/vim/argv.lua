@@ -8,7 +8,7 @@
 
 local M = {}
 
-local str = require('plugin-utils.data.string')
+local str = require('utils.data.string')
 
 
 

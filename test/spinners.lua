@@ -1,4 +1,4 @@
-local spinners = require('plugin-utils.unicode.spinners')
+local spinners = require('utils.unicode.spinners')
 local nt = require('notify')
 
 local function update_icon(t)
